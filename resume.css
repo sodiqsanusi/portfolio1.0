@@ -31,14 +31,27 @@ h2 {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem; }
-
+.navbar-toggler{
+  cursor: pointer;
+  transition: .3s;
+}
+.navbar-toggler:hover, .navbar-toggler:focus{
+    transform: scale(0.95);
+    opacity: 80%;
+}
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
     color: #BD5D38; }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; }
-
+.list-social-icons .list-inline-item{
+  margin-bottom: .5em;
+}
+.awards-ul{
+  font-size: min(5vw, 1.2rem);
+  line-height: 2;
+}
 .list-icons {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
